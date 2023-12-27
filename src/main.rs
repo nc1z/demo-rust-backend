@@ -12,3 +12,6 @@ use routes::date::get_current_date;
 fn rocket() -> _ {
     rocket::build().mount("/api", routes![get_current_date, date_plus_month])
 }
+
+#[cfg(test)]
+mod tests;
