@@ -2,6 +2,12 @@
 
 Rust with Rocket framework
 
+## Testing
+
+Refer to `src/tests/mod.rs` for examples
+
+## Endpoints
+
 ### `/date/now`
 
 Returns a Date object converted to JSON.
